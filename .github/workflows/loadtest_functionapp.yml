@@ -1,4 +1,4 @@
-name: Load Test Microservice
+name: 5 Load Test Microservice
 
 # Controls when the workflow will run
 on: workflow_dispatch
