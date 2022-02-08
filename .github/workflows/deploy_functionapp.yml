@@ -1,4 +1,4 @@
-name: Deploy Microservice to Azure Functions
+name: 4 Deploy Microservice to Azure Functions
 
 on: workflow_dispatch
 
