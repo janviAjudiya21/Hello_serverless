@@ -10,6 +10,12 @@ Deploy Serverless Application on Azure, reference architectures:
 [Enterprise integration on Azure](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/enterprise-integration/basic-enterprise-integration)
 ![](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/enterprise-integration/_images/simple-enterprise-integration.png)
 
+Azure Services used in this lab:
+* Azure Function (Consumption Plan)
+* Azure Logic App (Consumption Plan)
+* Azure API Management (Developer Plan)
+* Azure Application Insights
+
 [CI/CD Reference](https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-github-actions?tabs=dotnet)
 
 [Setup DotNet 6](https://github.com/actions/setup-dotnet)
