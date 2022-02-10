@@ -4,6 +4,9 @@
     "parameters": {
         "systemTopicName": {
             "value": "oaeventgrid01"
+        },
+        "endpoint": {
+            "value": "https://eventsdemo1.azurewebsites.net/api/updates"
         }
     }
 }
