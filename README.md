@@ -14,6 +14,7 @@ Azure Services used in this lab:
 * Azure Function (Consumption Plan)
 * Azure Logic App (Consumption Plan)
 * Azure API Management (Developer Plan)
+* Azure Event Grid
 * Azure Application Insights
 
 [CI/CD Reference](https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-github-actions?tabs=dotnet)
