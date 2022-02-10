@@ -16,6 +16,7 @@ Azure Services used in this lab:
 * Azure API Management (Developer Plan)
 * Azure Event Grid
 * Azure Application Insights
+* Azure Storage Account
 
 [CI/CD Reference](https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-github-actions?tabs=dotnet)
 
