@@ -23,7 +23,7 @@ Azure Services used in this lab:
 [Setup DotNet 6](https://github.com/actions/setup-dotnet)
 
 ### Check More DevSquad Projects
-* [DevSquad Main Project](https://github.com/oaviles/DevSquad)
+* [DevSquad Main Project](https://github.com/microsoft/fast-prototyping)
 
 > Note: This page is getting updated so make sure to check regularly for new resources.
 
