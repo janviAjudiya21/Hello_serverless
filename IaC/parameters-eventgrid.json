@@ -15,7 +15,7 @@
             "value": "oafnapplab100"  // Name of the Azure Function App handling the events
         },
         "functionName": {
-            "value": "myFunction"  // Name of the specific function within the Function App
+            "value": "EventGridTrigger1"  // Name of the specific function within the Function App
         },
         "systemTopicName": {
             "value": "oaeventgrid01"  // Name for the system topic, already provided
