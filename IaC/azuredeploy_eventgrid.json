@@ -23,14 +23,20 @@
         "description": "Provide a name for the Event Grid subscription."
       }
     },
-    "endpoint": {
+    "functionAppName": {
       "type": "string",
       "metadata": {
-        "description": "Provide the URL for the WebHook to receive events. Create your own endpoint for events."
+        "description": "Provide the name of the Azure Function App that will handle the events."
+      }
+    },
+    "functionName": {
+      "type": "string",
+      "metadata": {
+        "description": "Provide the name of the Azure Function within the Function App."
       }
     },
     "systemTopicName": {
-      "type": "String",
+      "type": "string",
       "defaultValue": "mystoragesystemtopic",
       "metadata": {
         "description": "Provide a name for the system topic."
@@ -57,7 +63,7 @@
       "name": "[parameters('systemTopicName')]",
       "location": "[parameters('location')]",
       "dependsOn": [
-        "[parameters('storageName')]"
+        "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageName'))]"
       ],
       "properties": {
         "source": "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageName'))]",
@@ -73,10 +79,10 @@
       ],
       "properties": {
         "destination": {
+          "endpointType": "azureFunction",
           "properties": {
-            "endpointUrl": "[parameters('endpoint')]"
-          },
-          "endpointType": "WebHook"
+            "resourceId": "[resourceId('Microsoft.Web/sites/functions', parameters('functionAppName'), parameters('functionName'))]"
+          }
         },
         "filter": {
           "includedEventTypes": [
