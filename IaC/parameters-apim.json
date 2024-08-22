@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "publisherEmail": {
-            "value": "omar.aviles@microsoft.com"
+            "value": "shivkumar.baghel@mcelebaltech.com"
         },
         "publisherName": {
-            "value": "oaviles"
+            "value": "ShivKumar Baghel"
         },
         "apiManagementServiceName":{
             "value": "oaapilab1"
