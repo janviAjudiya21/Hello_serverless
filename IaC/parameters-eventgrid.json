@@ -2,11 +2,23 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "systemTopicName": {
-            "value": "oaeventgrid01"
+        "storageName": {
+            "value": "oastorage555ree5o35y3q"  // Example storage name, you can change this as needed
         },
-        "endpoint": {
-            "value": "https://oawebappviewer01.azurewebsites.net/api/updates"
+        "location": {
+            "value": "eastus"  // Example location, modify based on your requirements
+        },
+        "eventSubName": {
+            "value": "subToStorage"  // Name for the Event Grid subscription
+        },
+        "functionAppName": {
+            "value": "oafnapplab100"  // Name of the Azure Function App handling the events
+        },
+        "functionName": {
+            "value": "myFunction"  // Name of the specific function within the Function App
+        },
+        "systemTopicName": {
+            "value": "oaeventgrid01"  // Name for the system topic, already provided
         }
     }
 }
